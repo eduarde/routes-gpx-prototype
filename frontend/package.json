@@ -1,0 +1,33 @@
+{
+  "name": "route-gpx-prototype",
+  "version": "1.0.0",
+  "description": "prototype of gpx",
+  "main": "index.js",
+  "author": "eduarde",
+  "license": "MIT",
+  "dependencies": {
+    "css-loader": "^2.1.1",
+    "extract-text-webpack-plugin": "^4.0.0-beta.0",
+    "jquery": "^3.4.1",
+    "leaflet": "^1.5.1",
+    "leaflet-bing-layer": "^3.3.1",
+    "leaflet-css": "^0.1.0",
+    "leaflet.fullscreen": "^1.4.5",
+    "leaflet.locatecontrol": "^0.66.2",
+    "mini-css-extract-plugin": "^0.6.0",
+    "node-sass": "^4.12.0",
+    "normalize.css": "^8.0.1",
+    "sass-loader": "^7.1.0",
+    "style-loader": "^0.23.1",
+    "underscore": "^1.9.1",
+    "url-loader": "^1.1.2",
+    "webpack": "^4.31.0"
+  },
+  "scripts": {
+    "build": "webpack -p",
+    "watch": "webpack --watch"
+  },
+  "devDependencies": {
+    "webpack-cli": "^3.3.2"
+  }
+}
